@@ -6,7 +6,7 @@ namespace Extensions
     {
         public static void Activate(this MonoBehaviour monoBehaviour)
         {
-            monoBehaviour.monoBehaviour.SetActive(true);
+            monoBehaviour.gameObject.SetActive(true);
         }
         
         public static void Deactivate(this MonoBehaviour monoBehaviour)
