@@ -16,7 +16,7 @@ namespace Extensions
         
         public static void Enable(this MonoBehaviour monoBehaviour)
         {
-            monoBehaviour.enable = true;
+            monoBehaviour.enabled = true;
         }
         
         public static void Disable(this MonoBehaviour monoBehaviour)
