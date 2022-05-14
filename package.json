@@ -1,6 +1,6 @@
 {
     "name": "com.larndt.ergonomic-extensions",
-    "version": "0.1.ß",
+    "version": "0.1.0",
     "displayName": "Ergonomic Unity Extensions",
     "description": "Missing extension methods for Unity components",
     "unity": "2019.1",
