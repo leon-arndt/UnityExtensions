@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Extensions
+namespace ErgonomicExtensions
 {
     public static class MonoBehaviourExtensions
     {

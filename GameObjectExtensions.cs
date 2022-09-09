@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Extensions
+namespace ErgonomicExtensions
 {
     public static class GameObjectExtensions
     {
@@ -12,6 +12,11 @@ namespace Extensions
         public static void Deactivate(this GameObject gameObject)
         {
             gameObject.SetActive(false);
+        }
+        
+        public static void ToggleActive(this GameObject gameObject)
+        {
+            gameObject.SetActive(!gameObject.activeSelf);
         }
     }
 }
